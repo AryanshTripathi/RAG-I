@@ -1,0 +1,22 @@
+[project]
+name = "rag-i"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "fastapi>=0.135.2",
+    "inngest>=0.5.18",
+    "llama-index-core>=0.14.18",
+    "llama-index-readers-file>=0.6.0",
+    "nomic>=3.1.0",
+    "openai>=1.0.0",
+    "openapi>=2.0.0",
+    "pytest>=9.0.2",
+    "pytest-mock>=3.15.1",
+    "python-dotenv>=1.2.2",
+    "qdrant-client>=1.17.1",
+    "streamlit>=1.55.0",
+    "structlog>=25.5.0",
+    "uvicorn>=0.42.0",
+]
