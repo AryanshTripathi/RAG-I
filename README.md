@@ -14,6 +14,7 @@ RAG-I is an event-driven Retrieval-Augmented Generation (RAG) system. Upload PDF
 
 ---
 
+
 ## Architecture
 
 ```
@@ -70,7 +71,7 @@ Streamlit UI
 ## 🚧 Future Improvements
 
 These features are planned but were not implemented due to time constraints. They will be prioritized when updating this project to a production-ready SaaS application.
-###. Architecture
+### Architecture
 
 * **REST Endpoints:**
 We need to add two FastAPI routes `/ingest` and `/query` alongside the existing Inngest workflows. This way our system won't just rely on events.
